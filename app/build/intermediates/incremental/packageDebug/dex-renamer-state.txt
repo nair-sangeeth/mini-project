@@ -1,0 +1,7 @@
+#Mon Mar 06 15:06:07 IST 2017
+base.0=/Users/nair_sangeeth/AndroidStudioProjects/Mini_Project_S6/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_405e25e4a83cb14f0ce765793a2cc120dd0645d4
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/nair_sangeeth/AndroidStudioProjects/Mini_Project_S6/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_aead0fb468edaab889b05d9ae594413a2a9198e4/classes.dex
+base.1=/Users/nair_sangeeth/AndroidStudioProjects/Mini_Project_S6/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_aead0fb468edaab889b05d9ae594413a2a9198e4
+file.0=/Users/nair_sangeeth/AndroidStudioProjects/Mini_Project_S6/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_405e25e4a83cb14f0ce765793a2cc120dd0645d4/classes.dex

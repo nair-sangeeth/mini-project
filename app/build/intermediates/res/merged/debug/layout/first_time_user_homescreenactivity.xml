@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/firsttimeuserscreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.nair_sangeeth.mini_project_s6.First_Time_User_HomeScreenActivity">
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="20pt"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:text="You Haven't added any car yet"
+    android:id="@+id/textViewUser"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="37dp" />
+
+    <Button
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Add A Car"
+android:id="@+id/addcar"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/textViewUser"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logout"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="150pt"
+    android:id="@+id/imageView"
+    android:src="@drawable/image"
+    android:contentDescription=""
+        android:layout_alignTop="@+id/addcar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="21dp" />
+
+    <TextView
+        android:text="Welcome User"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textViewWelMess"
+        android:layout_marginRight="7dp"
+        android:layout_marginEnd="7dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+</RelativeLayout>

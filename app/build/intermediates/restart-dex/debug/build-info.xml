@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86_64,x86"
+    api-level="22"
+    density="xhdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="170295579093772"
+    token="-1085153870930904073" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <build
+        timestamp="166741126059524"
+        verifier="MANIFEST_FILE_CHANGE" >
+        <artifact
+            location="/Users/nair_sangeeth/AndroidStudioProjects/Mini_Project_S6/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="168738103007921"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/nair_sangeeth/AndroidStudioProjects/Mini_Project_S6/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
+    </build>
+    <build
+        timestamp="169758358626667"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/nair_sangeeth/AndroidStudioProjects/Mini_Project_S6/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="170268136738869"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/nair_sangeeth/AndroidStudioProjects/Mini_Project_S6/app/build/intermediates/builds/debug/170268136738869/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build timestamp="170295579093772" />
+
+</instant-run>
